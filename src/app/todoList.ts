@@ -7,9 +7,10 @@ export class TodoList{
 
   get items(): readonly TodoItem[]{
     return this.todoItems;
+    
   }
 
   addItem(task:string){
     this.todoItems.push(new TodoItem(task));
   }
-}
+}//adasdasd
